@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RoutingFramework.iml" filepath="$PROJECT_DIR$/RoutingFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app2/app2.iml" filepath="$PROJECT_DIR$/app2/app2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/macroe/macroe.iml" filepath="$PROJECT_DIR$/macroe/macroe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_a/module_a.iml" filepath="$PROJECT_DIR$/module_a/module_a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_b/module_b.iml" filepath="$PROJECT_DIR$/module_b/module_b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_c/module_c.iml" filepath="$PROJECT_DIR$/module_c/module_c.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_d/module_d.iml" filepath="$PROJECT_DIR$/module_d/module_d.iml" />
+    </modules>
+  </component>
+</project>
