@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         try {
             mResponse = LocalRouter.getInstance(MaApplication.getMaApplication())
                     .route(MainActivity.this, RouterRequest.obtain(MainActivity.this)
+                            .domain("io.github.adsuper.app2:music")
                             .provider("MyProvicer")
                             .action("MycAction")
                             .data("name", "a")

@@ -22,16 +22,13 @@ class MyProvicer extends MaProvider {
     }
 
     private class MycAction extends MaAction {
-
         private String mName;
         private String mAge;
-
         //是否支持异步
         @Override
         public boolean isAsync(Context context, HashMap<String, String> requestData) {
             return true;
         }
-
 
         @Override
         public MaActionResult invoke(Context context, HashMap<String, String> requestData) {
@@ -44,7 +41,6 @@ class MyProvicer extends MaProvider {
                 mAge = requestData.get("age");
                 result2 = mName + mAge;
             }
-
             //将处理过的数据返回
             MaActionResult result = new MaActionResult.Builder()
                     .code(MaActionResult.CODE_SUCCESS)
@@ -52,6 +48,10 @@ class MyProvicer extends MaProvider {
                     .data(result2)
                     .object(null)
                     .build();
+
+
+
+
 
 
             return result;
