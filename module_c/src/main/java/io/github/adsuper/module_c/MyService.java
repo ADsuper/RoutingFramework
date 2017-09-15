@@ -1,4 +1,4 @@
-package io.github.adsuper.app2;
+package io.github.adsuper.module_c;
 
 import com.spinytech.macore.router.LocalRouterConnectService;
 
